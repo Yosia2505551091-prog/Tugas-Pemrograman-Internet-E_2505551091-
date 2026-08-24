@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    
+    <title>CV - Precious Yosia Kuotaro</title>
+
+</head>
+<body>
+
+    <img src="foto-profil.jpg"/>
+
+    <h1>Precious Yosia Kuotaro</h1>
+    <p><b>NIM:</b> 2505551091</p>
+
+    <hr />
+    
+    <p><b>Asal:</b> Medan, Sumatera Utara</p>
+    <p><b>Tanggal Lahir:</b> 27 Juli, 2077</p>
+    <p><b>Email:</b> email@gmail.com</p>
+    <p><b>No Telepon:</b> +32 3423-2367-3421</p>
+    <p><b>Hobi:</b> Main game, Nonton TV</p>
+
+</body>
+</html>
