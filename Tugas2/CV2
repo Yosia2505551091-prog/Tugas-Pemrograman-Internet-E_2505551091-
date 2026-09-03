@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+
+<title>CV - Precious Yosia Kuotaro</title>
+
+</head>
+<body>
+
+<img src="foto-profil.jpg"/>
+
+<h1>Precious Yosia Kuotaro</h1>
+<p><b>NIM:</b> 2505551091</p>
+
+<hr />
+
+<h3>Menu</h3>
+<a href="#profil">Profil</a> |
+<a href="#pengalaman">Pengalaman</a> |
+<a href="#kontak">Kontak</a>
+
+<hr />
+
+<h2 id="profil">Profil</h2>
+
+<p><b>Asal:</b> Medan, Sumatera Utara</p>
+<p><b>Tanggal Lahir:</b> 27 Juli, 2077</p>
+<p><b>Email:</b> email@gmail.com</p>
+<p><b>No Telepon:</b> +32 3423-2367-3421</p>
+<p><b>Hobi:</b> Main game, Nonton TV</p>
+
+<hr />
+
+<h2 id="pengalaman">Pengalaman</h2>
+
+<table border="1">
+    <tr>
+        <th>Tahun</th>
+        <th>Pengalaman</th>
+        <th>Keterangan</th>
+    </tr>
+
+    <tr>
+        <td>2025</td>
+        <td>Mahasiswa</td>
+        <td>Mahasiswa Teknologi Informasi</td>
+    </tr>
+
+    <tr>
+        <td>2025</td>
+        <td>PKKMB</td>
+        <td>Mengikuti kegiatan PKKMB Universitas Udayana</td>
+    </tr>
+
+    <tr>
+        <td>2026</td>
+        <td>Project Website</td>
+        <td>Membuat website menggunakan HTML</td>
+    </tr>
+</table>
+
+<hr />
+
+<h2 id="kontak">Formulir Kontak</h2>
+
+<form>
+    <p>
+        <label>Nama:</label><br>
+        <input type="text" name="nama">
+    </p>
+
+    <p>
+        <label>Email:</label><br>
+        <input type="email" name="email">
+    </p>
+
+    <p>
+        <label>Password:</label><br>
+        <input type="password" name="password">
+    </p>
+
+    <p>
+        <label>Hobi:</label><br>
+        <select name="hobi">
+            <option value="game">Main Game</option>
+            <option value="nonton">Nonton TV</option>
+            <option value="musik">Mendengarkan Musik</option>
+            <option value="olahraga">Olahraga</option>
+        </select>
+    </p>
+
+    <p>
+        <label>Nomor Telepon:</label><br>
+        <input type="tel" name="telepon">
+    </p>
+
+    <input type="submit" value="Kirim">
+
+</form>
+
+</body>
+</html>
