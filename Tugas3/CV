@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+
+<title>CV - Precious Yosia Kuotaro</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Curriculum Vitae</h1>
+        <p>Precious Yosia Kuotaro</p>
+    </header>
+
+    <aside>
+
+        <h3>Menu</h3>
+
+        <a href="#profil">Profil</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#kontak">Kontak</a>
+
+    </aside>
+
+    <main>
+
+        <div class="content">
+
+            <section id="profil">
+
+                <h2>Profil</h2>
+
+                <div class="profil">
+
+                    <img src="foto-profil.jpg">
+
+                    <div>
+                        <p><b>Nama:</b> Precious Yosia Kuotaro</p>
+                        <p><b>NIM:</b> 2505551091</p>
+                        <p><b>Asal:</b> Medan, Sumatera Utara</p>
+                        <p><b>Tanggal Lahir:</b> 27 Juli, 2077</p>
+                        <p><b>Email:</b> email@gmail.com</p>
+                        <p><b>No Telepon:</b> +32 3423-2367-3421</p>
+                        <p><b>Hobi:</b> Main game, Nonton TV</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="pengalaman">
+
+                <h2>Pengalaman</h2>
+
+                <table>
+
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Pengalaman</th>
+                        <th>Keterangan</th>
+                    </tr>
+
+                    <tr>
+                        <td>2025</td>
+                        <td>Mahasiswa</td>
+                        <td>Mahasiswa Teknologi Informasi</td>
+                    </tr>
+
+                    <tr>
+                        <td>2025</td>
+                        <td>PKKMB</td>
+                        <td>Mengikuti kegiatan PKKMB Universitas Udayana</td>
+                    </tr>
+
+                    <tr>
+                        <td>2026</td>
+                        <td>Project Website</td>
+                        <td>Membuat website menggunakan HTML</td>
+                    </tr>
+
+                </table>
+
+            </section>
+
+            <section id="kontak">
+
+                <h2>Formulir Kontak</h2>
+
+                <form>
+
+                    <label>Nama:</label>
+                    <input type="text" name="nama">
+
+                    <label>Email:</label>
+                    <input type="email" name="email">
+
+                    <label>Password:</label>
+                    <input type="password" name="password">
+
+                    <label>Hobi:</label>
+
+                    <select name="hobi">
+                        <option value="game">Main Game</option>
+                        <option value="nonton">Nonton TV</option>
+                        <option value="musik">Mendengarkan Musik</option>
+                        <option value="olahraga">Olahraga</option>
+                    </select>
+
+                    <label>Nomor Telepon:</label>
+                    <input type="tel" name="telepon">
+
+                    <input type="submit" value="Kirim">
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Precious Yosia Kuotaro</p>
+    </footer>
+
+</div>
+
+
+</body>
+</html>
